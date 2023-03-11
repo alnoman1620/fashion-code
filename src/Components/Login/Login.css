@@ -1,0 +1,77 @@
+.login {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-sec {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    width: 45%;
+    padding: 70px;
+    border-radius: 15px;
+
+}
+
+.login-img {
+    background-image: url("../../Image/sec3/model1.png");
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.login-img h1 {
+    color: white;
+    margin-top: 70%;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.login-text-sec {
+    padding-left: 40px;
+    padding-top: 60px;
+
+}
+
+.login-text-sec h1 {
+    font-size: 27px;
+}
+
+.log-small {
+    margin-bottom: 20px;
+}
+
+.login-input {
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    width: 250px;
+    border: none;
+    background-color: ;
+    border-bottom: 2px solid grey;
+}
+
+.or {
+    text-align: center;
+    color: gray;
+}
+
+.login-btn {
+    padding: 10px 45px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.one {
+    background-color: rgb(255, 255, 100);
+    font-weight: 600;
+    border: 2px solid yellow;
+    border: none;
+}
+
+.two {
+    color: white;
+    background-color: black;
+}

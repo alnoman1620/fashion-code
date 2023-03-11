@@ -1,0 +1,37 @@
+body{
+    background-color: #f3f3f3;
+}
+.logo-div{
+    display: flex;
+    
+}
+.logo{
+    height: 27px;
+    padding-top: 23px;
+    padding-right: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+}
+.links{
+    margin-top: 30px;
+}
+.link-text{
+    color: black;
+    padding-left: 30px;
+}
+.nav-btn{
+    margin-right:30px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.logo-text{
+    font-weight: 900;
+    color: black;
+}

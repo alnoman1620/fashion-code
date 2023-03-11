@@ -1,0 +1,183 @@
+.sec-one{
+    padding:20px  90px 0px 90px;
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(226, 226, 226, 0.87);
+    border: none;
+    border-radius: 30px;
+}
+.home-text h1{
+    
+    font-size: 140px;
+    font-weight: 800;
+    line-height: 35px;
+}
+.unique{
+    background-image: url(../../Image/Rectangle\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-img{
+    height: 650px;
+    padding-top: 73px;
+}
+.sec-one-btn{
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn-img{
+    height: 20px;
+    margin-right: 20px;
+}
+
+/* sec 2 */
+
+.sec-two{
+    background-color: #EBD96B;
+    
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.sec-two img{
+    height: 70px;
+}
+
+.sec-three{
+    margin: 20px 50px;
+}
+.sec-three-card{
+    display: flex;
+    justify-content:center;
+    margin-top: 60px;
+    line-height: 10px;
+
+}
+.card{
+    padding: 20px;
+}
+.sec-three-card h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sec-four{
+    margin: 90px 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../Image/sec4/sec-four-bg.jpg');
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.sec-four-img-div img{
+    height: 700px;
+}
+.sec-four-info-div h1{
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 50px;
+}
+.sec-four-info-div h4{
+    font-size: 30px;
+    font-weight: 700;
+   line-height: 10px;
+}
+.sec-four-info-div p{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    
+}
+.sec-four-btn{
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.sec-five{
+    margin: 90px 90;
+    display: flex;
+    justify-content: center;
+}
+.sec-five h4{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.sec-six{
+    margin: 90px 90;
+    padding: 90px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec-six-img img{
+    height: 900px;
+}
+.sec-six-info{
+    padding: 200px 50px;
+}
+.sec-six-info h3{
+  font-size: 60px;
+  line-height: 35px;
+}
+.sec-six-info small{
+  font-size: 20px;
+  line-height: 35px;
+  color: gray;
+ 
+}
+.sec-six-button-div{
+    margin-top: 50px;
+}
+.sec-six-btn-img{
+    margin-left: 20px;
+}
+
+
+
+.sec-seven{
+    text-align: center;
+    background-image: url('../../Image/sec4/sec-four-bg.jpg');
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sec-seven h3{
+    font-size: 60px;
+    line-height: 35px;
+    color: white;
+}
+.sec-seven p{
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+.input{
+    padding: 15px;
+    border: 6px solid white;
+    border-radius: 5px 5px 0px 5px;
+}
+.input-btn{
+   
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 6px solid white;
+    border-radius: 5px;
+}
