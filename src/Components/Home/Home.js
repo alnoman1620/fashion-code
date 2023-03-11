@@ -20,10 +20,9 @@ import imgfour from "../../Image/sec6/apple.png";
 import imgfive from "../../Image/sec6/android.png";
 import { NavLink } from "react-router-dom";
 
-
-const Home = () => {
+const Home = ({ globalState }) => {
   return (
-    <Layout>
+    <Layout globalState={globalState}>
       <div className="home">
         {/* Section 1 */}
         <div className="sec-one">
@@ -126,23 +125,31 @@ const Home = () => {
               now.
             </small>
             <div className="sec-six-button-div">
-                <NavLink><img className="sec-six-btn-img" src={imgfour} alt=''></img></NavLink>
-                <NavLink><img className="sec-six-btn-img" src={imgfive} alt=''></img></NavLink>
+              <NavLink>
+                <img className="sec-six-btn-img" src={imgfour} alt=""></img>
+              </NavLink>
+              <NavLink>
+                <img className="sec-six-btn-img" src={imgfive} alt=""></img>
+              </NavLink>
             </div>
           </div>
           <div className="sec-six-img">
-            <img src={imgthree} alt=''></img>
+            <img src={imgthree} alt=""></img>
           </div>
         </div>
         {/* Section 7 */}
         <div className="sec-seven">
-            <h3>JOIN SHOPPING COMMUNITY TO </h3>
-            <h3>GET MONTHLY PROMO</h3>
-            <p>Type your email down below and be young wild generation</p>
-            <div className="sec-seven-input">
-                <input className="input" type='email' placeholder="Add your email here"></input>
-                <button className="input-btn">SEND</button>
-            </div>
+          <h3>JOIN SHOPPING COMMUNITY TO </h3>
+          <h3>GET MONTHLY PROMO</h3>
+          <p>Type your email down below and be young wild generation</p>
+          <div className="sec-seven-input">
+            <input
+              className="input"
+              type="email"
+              placeholder="Add your email here"
+            ></input>
+            <button className="input-btn">SEND</button>
+          </div>
         </div>
       </div>
     </Layout>
